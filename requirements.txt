@@ -1,0 +1,15 @@
+numpy
+pillow
+opencv-python
+scipy
+torch>=1.13.0
+torchvision
+tqdm
+scikit-image
+matplotlib
+safetensors
+diffusers
+transformers
+accelerate
+omegaconf
+pyyaml

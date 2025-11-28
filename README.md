@@ -112,5 +112,18 @@ The script pads images to be multiples of 32, runs the model, unpads and saves t
 **Reproducibility**
 - Seeds: `create_small_split.py`, `precompute_damage.py`, and dataset simulation support seeding for reproducibility. When precomputing damaged images, `--base-seed` and `seed` arguments allow stable generation.
 
+**Dataset**
+- check out the [Dataset](https://drive.google.com/drive/folders/1afB_2CwkfCRSbVh_Mth-VZGagd-LeGvp?usp=sharing)
+
+**Outputs**
+
+-This is the compairson between first epoch and final epoch 
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/bb636bbd-260e-44f9-b218-a472c4619104" width="300" height="600" />
+
+  <img src="https://github.com/user-attachments/assets/8cd9f10a-f1f2-4514-b483-4cdc0618df39" width="300" height="600" />
+</p>
+
 **Acknowledgements / Notes**
 - This project aims to simulate and repair artifact damage for research and restoration assistance; tune the simulator and loss weights to match your domain and target artifact characteristics.
+
